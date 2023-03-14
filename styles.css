@@ -1,0 +1,158 @@
+html * {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+h1 {
+    color:blue;
+    padding-left: 50px;
+}
+
+.banner {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.fit {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.middle-first {
+    position: absolute;
+    font-size: 50px;
+    top: 275px;
+    left: 250px;
+}
+
+.middle-second {
+    position: absolute;
+    font-size: 30px;
+    top: 350px;
+    left: 250px;
+}
+
+
+.button {
+    position: fixed;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button-location {
+    position: absolute;
+    top: 410px;
+    left: 250px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 50px;
+    gap: 2px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid-item1 {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgAbout {
+    float: right;
+}
+
+.imageBlock {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding: 50px;
+    margin: 10px;
+    grid-gap: 10px;
+}
+
+.imageColumn {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.motoPhoto {
+    width: 100%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 60px;
+}
+
+#contactBlock {
+    margin-top: 10px;
+}
+
+h2 {
+    padding-left: 50px;
+}
+
+.button1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 125px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.aboutVideo {
+    width:600px;
+    height: 400px;
+    padding: 50px;
+}
+
+.contactBlock {
+    margin: 2px;
+    padding: 50px;
+}
+
+.highlight {
+    color: blue;
+}
+
+.gridP {
+    padding: 0px;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
